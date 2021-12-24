@@ -1,18 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# A Support Website for The International University 
 
-> One paragraph statement about the project.
+> This project is built as a capstone project of the first module in Microverse, it is presented as a support website for the International University.
 
-![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
 
 ## Live Demo
 
@@ -21,23 +15,28 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Built With
 
-### Setup
+- HTML
+- CSS
+
+
+### Prerequisites
+- Linters
+- GitHub Flow
+- Flexbox
+- Responsive web design
+
 
 ### Install
 
-### Usage
+- git clone [git@github.com:selma-belhadj/CapstoneProject1.git](git@github.com:selma-belhadj/CapstoneProject1.git) 
+- cd CapstoneProject1
 
-### Run tests
 
-### Deployment
 
 
 
@@ -45,31 +44,26 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@selma-belhadj](https://github.com/selma-belhadj)
+- Twitter: [@Bel_Selma16](https://twitter.com/Bel_Selma16)
+- LinkedIn: [@selma-belhadj](https://www.linkedin.com/in/selma-belhadj/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/selma-belhadj/CapstoneProject1/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Credits
+For this project design, the original design idea is by Cindy Shin in Behance.
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Behance: [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
 
 ## 📝 License
 
