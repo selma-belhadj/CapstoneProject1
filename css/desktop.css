@@ -1,0 +1,482 @@
+body {
+  width: 100%;
+}
+
+.burger {
+  display: none;
+}
+
+.x-btn {
+  display: none;
+}
+
+.active-btn {
+  display: none;
+}
+
+.register {
+  display: none;
+}
+
+.more {
+  display: none;
+}
+
+.home-btn {
+  display: none;
+}
+
+.mobile-version {
+  display: none;
+}
+
+.partners-conatainer {
+  display: none;
+}
+
+.more-btn {
+  display: none;
+}
+
+.top-nav-Desktop {
+  width: 100%;
+  padding: 0 100px 0 100px;
+  background-color: var(--font-color);
+}
+
+.top-nav {
+  display: flex;
+  padding: 13px;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.active-red a {
+  color: var(--primary-color) !important;
+}
+
+.top-nav li a,
+i {
+  color: white;
+  margin-right: 10px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  padding: 0 100px 10px 100px;
+  justify-content: space-between;
+}
+
+.menu-nav ul {
+  display: flex;
+  padding: 20px 0 20px 0;
+  justify-content: end;
+}
+
+.menu-nav ul li a {
+  margin-right: 50px;
+  color: var(--font-color);
+}
+
+footer img {
+  margin-right: 150px;
+  margin-left: -400px;
+}
+
+.menu-container img {
+  width: 160px;
+  height: 60px;
+  margin-right: 3px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--cocogoose);
+  color: var(--font-color);
+}
+
+.campaign {
+  border: 4px solid var(--primary-color);
+  padding: 10px;
+  color: var(--primary-color) !important;
+}
+
+.intro {
+  background: linear-gradient(rgba(249, 249, 249, 0.8), rgba(249, 249, 249, 0.8)), url(../images/iu-why-germany.webp);
+  background-size: cover;
+  padding: 100px 100px 50px 100px;
+}
+
+.welcome {
+  color: var(--primary-color);
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.intro h1 {
+  color: var(--primary-color);
+  font-weight: 900;
+  margin-top: 7px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  width: 650px;
+}
+
+.intro .description {
+  color: var(--font-color);
+  background-color: var(--secondary-color);
+  padding: 15px;
+  width: 51%;
+  border: 2px solid white;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  color: var(--font-color);
+  margin-top: 10px;
+  font-size: 1.8rem;
+}
+
+.EventLocation {
+  color: var(--font-color);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.program-container {
+  background-color: #272a31;
+}
+
+.program-container h1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.line {
+  width: 30px;
+  background-color: var(--primary-color);
+}
+
+.cards-div {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #3c3f46;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 8px 10px 8px;
+  width: 400px;
+  margin-right: 3px;
+  margin-bottom: 40px;
+}
+
+.card img {
+  padding-bottom: 5px;
+}
+
+.card:hover {
+  border: 1px solid white;
+}
+
+.card h4 {
+  color: var(--primary-color);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.card p {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.see-program {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 60px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.see-program:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.speakers hr {
+  margin-bottom: 30px;
+}
+
+.speakers h3 {
+  font-family: var(--font-family);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.list {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  grid-column-gap: 40px;
+}
+
+.speakers .list .speaker-card .image {
+  background-image: url(../images/checker.png);
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  padding: 20px 0 0 20px;
+}
+
+.about-footer img {
+  padding: 20px;
+  margin-left: 0;
+}
+
+.speakers .list .speaker-card .image img {
+  min-width: 130px;
+  padding: 0;
+  padding-right: 20px;
+}
+
+.speakers .list .speaker-card h4 {
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
+}
+
+.speakers .list .speaker-card .description {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.speakers .list .speaker-card {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.iu-logo hr {
+  margin-bottom: 10px;
+}
+
+.PastEvents hr {
+  margin-bottom: 10px;
+}
+
+.speakers .list .speaker-card hr {
+  color: #d3d3d3;
+  margin: 10px 0;
+  width: 20px;
+}
+
+.details {
+  min-width: 230px;
+}
+
+.details p {
+  color: var(--font-color);
+  font-size: 14px;
+}
+
+.partners-conatainer-desk {
+  padding: 20px;
+  display: block;
+  background-color: #414246;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.partners-conatainer-desk h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.Partners-logos {
+  padding: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Partners-logos i {
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.footer-text-desk {
+  margin-left: 0;
+}
+
+.about-description {
+  background-color: white !important;
+  text-align: center;
+  box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -webkit-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  -moz-box-shadow: -1px 0 5px 0 rgba(247, 247, 247, 0.75);
+  padding: 20px !important;
+  width: 80% !important;
+  height: 170px;
+  margin: 0 auto;
+  line-height: 1.6;
+  border: 2px solid rgba(168, 168, 168, 0.315);
+}
+
+.about-welcome {
+  display: none;
+}
+
+.about-title {
+  margin: 0 auto;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact p {
+  font-size: 17px;
+  color: var(--font-color);
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 100% !important;
+}
+
+.contact-email {
+  font-weight: 900;
+  text-decoration: underline;
+  font-size: 14px !important;
+}
+
+.iu-logo {
+  text-align: center;
+}
+
+.iu-logo h3 {
+  font-family: var(--font-family);
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: var(--font-color);
+}
+
+.iu-logo p {
+  width: 60%;
+  margin: 0 auto;
+  color: var(--font-color);
+  padding: 20px 20px 20px 20px;
+}
+
+.iu-logo-img {
+  border: 2px solid rgba(168, 168, 168, 0.315);
+}
+
+.logo-break {
+  background-color: #efefef;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+
+.PastEvents h3 {
+  font-family: var(--font-family);
+  padding: 5px 20px 0 20px;
+  color: var(--font-color);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.PastEvents .EventsDescription {
+  padding: 0 20px 0 20px;
+  text-align: center;
+  color: #7b7b7b;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.Event-alg {
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(../images/Alg-event.jpeg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+
+.Event-mor {
+  background: linear-gradient(rgba(148, 39, 19, 0.7), rgba(148, 39, 19, 0.7)), url(../images/Mor-event.jpeg);
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+}
+
+.event-content h3 {
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+.event-content p {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+  width: 90%;
+}
+
+.events-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.about-footer {
+  background-color: var(--font-color);
+  padding: 20px;
+}
+
+.about-footer p {
+  color: white;
+  padding: 20px;
+  width: auto;
+}
