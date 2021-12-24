@@ -10,7 +10,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://selma-belhadj.github.io/CapstoneProject1/)
 
 
 ## Getting Started
